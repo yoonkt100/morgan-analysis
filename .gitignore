@@ -1,0 +1,67 @@
+# macOS 시스템 파일
+.DS_Store
+
+# Python 가상환경
+venv/
+.env/
+.venv/
+
+# Python 캐시 파일
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints
+
+# FastAPI 관련
+.env
+*.sqlite3
+
+# node_modules (프론트엔드)
+node_modules/
+node_modules
+dist
+dist-ssr
+*.local
+
+# 빌드 결과물 (프론트엔드)
+dist/
+build/
+
+# 환경변수 파일
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE 관련 설정파일 (VS Code, PyCharm 등)
+.vscode/
+.idea/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 불필요한 Coverage 리포트
+coverage/
+coverage.xml
+
+# 기타 민감한 설정파일
+secret_key.txt
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

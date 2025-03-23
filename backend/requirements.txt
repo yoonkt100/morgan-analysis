@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+yfinance
+pandas
+python-multipart
+requests
+fredapi
+pandas_datareader
